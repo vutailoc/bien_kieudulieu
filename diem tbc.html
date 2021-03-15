@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>điểm trung bình cộng</title>
+</head>
+<body>
+     
+ <script>
+
+     alert("xin chào, vui lòng nhập điểm của bạn")
+
+     /*input*/
+    let  toan=prompt("nhập điểm toán");
+    let  ly=prompt("nhập điểm lý");
+    let  hoa=prompt("nhập điểm hóa");
+
+   toan=parseInt(toan);
+   ly=parseInt(ly);
+   hoa=parseInt(hoa);
+
+   tong = (toan + ly + hoa);
+   tbc = tong/3;
+      
+     document.write("tổng điểm của bạn: " + tong )
+     document.write("điểm trung bình của bạn: " + tbc)
+ </script>
+ 
+</body>
+</html>
